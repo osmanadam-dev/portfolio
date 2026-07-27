@@ -43,3 +43,11 @@ sass sass/main.scss css/style.css --watch
 ```
 
 No build process, server, or dependencies required—the site runs directly in the browser.
+
+
+## 👤 Author
+
+**Osman Adam**
+- GitHub: [@osmanadam-dev](https://github.com/osmanadam-dev)
+- Portfolio: [lnk.bio/osmanadam-dev](https://lnk.bio/osmanadam-dev)
+
