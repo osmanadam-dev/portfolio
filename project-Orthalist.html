@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project Orthalist</title>
+    <meta name="description" content="Case study page of Project Orthalist" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpeg/osman.png"
+              alt="Osman Adam Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Osman Adam</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Orthalist</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            A web application for patients and staff of an orthodontics practice, 
+            enabling users to view practice information, manage patient profiles, 
+            track medical records, and customize settings.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://orthalis-app.vercel.app/" class="btn btn--bg" target="_blank">Live Link</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/orth1.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+               Orthalis is a multi-page web application built using vanilla HTML, CSS, and JavaScript, 
+               with the Materialize CSS framework for the interface. 
+               The project offers two distinct login areas—one for the practice (staff) 
+               and one for patients—each redirecting to a personalized dashboard upon authentication.
+              </p>
+                <h4 class="project-details__content-title">✨ Features:</h4>
+                <p class="project-details__desc-para">
+              🔐 Authentication<br>
+              Practice Login (index.html) — access via 8-character ID
+              Patient Login (loginPatient.html) — access via patient code + password
+                <br>
+              🏠 Home (accueil.html)<br>
+              Notification feed (appointments, practitioner absences, general information)
+              Practice photo and logo
+                  <br>
+              📍 Practice (cabinet.html)<br>
+              Practice showcase carousel
+              Contact details (address, phone, email)
+              Opening hours (accordion)
+              Integrated interactive map (Google Maps)
+                  <br>
+              👤 Patient Profile (profil.html)<br>
+              Personal information form (last name, first name, date of birth, email, phone)
+              Orthodontic progress gallery: before/after photos (frontal and intraoral views)
+                <br>
+              📁 Medical Record (dossierMedical.html)<br>
+              Payment history with downloadable invoices
+              Appointment history with downloadable reports
+              Display of outstanding balance
+              <br>
+              ⚙️ Settings (parametres.html)<br>
+              Language selection (French / English / Spanish)
+              Password change
+              Notification timing adjustment (12h / 24h / 36h / 48h)
+              Text size adjustment
+              Day / Night mode (contrast)
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+              <div class="skills__skill">HTML5</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Vanilla JS</div>
+              <div class="skills__skill">Modules</div>
+              <div class="skills__skill">ES6</div>
+              <div class="skills__skill">jQuery</div>
+              <div class="skills__skill">Materialize CSS</div>
+              <div class="skills__skill">Material Design</div>
+              <div class="skills__skill">Material Icons</div>
+              <div class="skills__skill">Google Maps</div>
+              <div class="skills__skill">Embedded API</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="https://orthalis-app.vercel.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/osmanadam-dev/Orthalis-app"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/osmanadam-dev">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/osmanadam-dev">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://x.com/osmanadamdev">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@osmanadamdev">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/osmanadamdev">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Osman Adam</h4>
+            <p class="main-footer__short-desc">
+              I'm always excited to connect with creative and passionate people,
+               exchange ideas, explore new possibilities, and collaborate on meaningful projects. 
+               Whether you have a fully developed vision or just the spark of an idea, 
+               let's start a conversation and work together to create something awesome, 
+               impactful, and genuinely exciting that we're proud to bring to life. ✨
+
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2026. Made by
+          <a rel="noreferrer" target="_blank" href="https://github.com/osmanadam-dev">
+            osmanadam-dev</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
