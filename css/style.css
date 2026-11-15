@@ -608,8 +608,8 @@ textarea {
     border-bottom: 0; }
 
 .main-footer {
-  background: #0062b9;
-  color: #fff; }
+  background:#0062b9;
+  color: #0062b9; }
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
