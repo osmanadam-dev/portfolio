@@ -609,7 +609,7 @@ textarea {
 
 .main-footer {
   background:#0062b9;
-  color: #0062b9; }
+  color: #fff; }
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
